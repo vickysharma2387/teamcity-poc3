@@ -7,5 +7,5 @@ app.get('/api/helloworld', (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
+    console.log(`Hello world app running on port ${PORT}`);
 });
